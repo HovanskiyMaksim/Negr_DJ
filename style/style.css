@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'DM Sans';
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+ul,ul li{
+    list-style:none;
+}
+
+button{
+    border: 0;
+}
+
+body{
+    background-color: #191919;
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header_top_content{
+    display: flex;
+    justify-content: space-between;
+    height: 119px;
+    display: flex;
+    align-items: center;
+}
+
+.header_list{
+    display: flex;
+    gap: 40px;
+}
+
+.header_link{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+
+.header_link span{
+    color: #118DA8;
+    border-bottom: 2px solid #118DA8;
+}
+
+/* header_down */
+
+.header_down{
+    margin-top: 40px;    
+}
+
+.header_down_content{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header_down_right{
+    margin-left: 60px;
+}
+
+.header__main-title{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; /* 125.714% */
+    letter-spacing: 3.2px;
+}
+
+.header__main-title span{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 110% */
+    letter-spacing: 3.2px;
+}
+
+.header_music_programs{
+    margin-top: 90px;
+}
+
+.header_music_programs svg{
+    margin-right: 17px;
+}
+
+.header_music_programs svg:last-child{
+    margin-right: 0;
+}
+
+.header_music_title{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+/* main */
+
+.main{
+    margin-top: 93px;
+}
+
+.technique_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.technique_title{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.2px; /* 123.75% */
+    letter-spacing: 2.88px;
+}
+
+
+.technique_top_btn{
+    width: 178px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #118DA8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+
+.technique_products{
+    margin-top: 66px;
+}
+
+.technique_product{
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    width: 100%;
+    height: 545px;
+    border-radius: 32px;
+    background: #000;
+    margin-bottom: 60px;
+}
+
+.technique_product_right{
+    margin-left: 53px;
+}
+
+
+.technique_product_type{
+    max-width: 136px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+
+.technique_product_episode_number{
+    color: #118DA8;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+    margin-top: 48px;
+}
+
+.technique_product_title{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 110% */
+    letter-spacing: 2.56px;
+    margin-top: 18px;
+}
+
+.technique_product_subtitle{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+    margin-top: 28px;
+}
+
+.technique_product_button{
+    width: 208px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #118DA8;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    margin-top: 30px;
+}
+
+/* workers */
+
+.workers_content{
+    display: flex;
+    align-items: center; 
+    margin-top: 260px; 
+    justify-content: space-between;
+}
+
+.workers_arrow{
+    cursor: pointer;
+    width: 112px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 400px;
+    background: #118DA8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.workers_host_text{
+    color: #118DA8;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    margin-top: 20px;
+}
+
+.workers_name{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.2px; /* 121.846% */
+    letter-spacing: 2.88px;
+}
+
+.workers_top_info{
+    margin-top: 28px;
+    margin-bottom: 33px;
+}
+
+.workers_info{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 150% */
+}
+
+/* subscribe */
+
+.subscribe{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 1300px;
+    height: 387px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #000;
+    margin-top: 201px;
+    justify-content: space-between;    
+}
+
+.subscribe_newsletter{
+    color: #118DA8;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+
+.subscribe_title{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 79.2px; /* 110% */
+    letter-spacing: 2.88px;
+}
+
+.subscribe_svg{
+    margin-bottom: -160px;
+    margin-left: -100px;
+}
+
+.subscribe_input_field::placeholder{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 120% */
+}
+
+.subscribe_input_field{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 120% */
+}
+
+
+/* feedback */
+
+.feedbacks{
+    margin-top: 200px;
+}
+
+.feedbacks_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.feedback{
+    padding-left: 50px;
+    padding-top: 54px;
+    width: 423px;
+    height: 321px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #000;
+}
+
+.feedback_stars{
+    display: flex;
+    gap: 5px;
+}
+
+.feedback_title{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px; /* 120% */
+    margin-top: 21px;
+    margin-bottom: 19px;
+}
+
+.feedback_user_name{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 120% */
+    margin-top: 19px;
+}
+
+/* footer */
+
+.footer{
+    height: 438px;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+.footer_content{
+    display: flex;
+    padding-top: 100px;
+}
+
+.footer_left img{
+    display: block;
+    margin-bottom: 23px;
+}
+
+.footer_left svg{
+    margin-right: 10px;
+}
+.footer_left svg:last-child{
+    margin-right: 0;
+}
+
+.footer_midth ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left: 239px;
+}
+
+.footer_midth ul li a{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+
+.footer_right ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left: 120px;
+}
+
+.footer_right ul li a{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+
+.footer_music_programs{
+    display: flex;
+    gap: 17px;
+    margin-left: 100px;
+}
